@@ -48,7 +48,7 @@ scene.add(dirLightCamHelper);
 gui.add(dirLightCamHelper, "visible").name("Dir. Light Camera Helper");
 
 // Spotlight
-const spotlight = new THREE.SpotLight(0xff5511, 0.3, 10, Math.PI * 0.3);
+const spotlight = new THREE.SpotLight(0xff44ff, 0.3, 10, Math.PI * 0.3);
 spotlight.castShadow = true;
 spotlight.position.set(0, 2, 2);
 spotlight.shadow.mapSize.width = 1024;
