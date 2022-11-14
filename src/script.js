@@ -66,7 +66,7 @@ scene.add(spotLightHelper);
 gui.add(spotLightHelper, "visible").name("Spot Light Camera Helper")
 
 // Point Light
-const pointLight = new THREE.PointLight(0xffffff, 0.3);
+const pointLight = new THREE.PointLight(0x004444, 0.3);
 pointLight.castShadow = true;
 pointLight.position.set(-1, 1, 0);
 pointLight.shadow.mapSize.width = 1024;
